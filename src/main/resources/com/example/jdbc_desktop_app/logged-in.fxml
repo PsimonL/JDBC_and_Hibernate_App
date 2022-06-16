@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FFD500;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jdbc_desktop_app.LoggedInController">
+   <children>
+      <Label fx:id="label_initial" layoutX="132.0" layoutY="41.0" text="You have been successfully logged in!">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="93.0" text="Your balance account is:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_choice" layoutX="184.0" layoutY="138.0" text="What you would like to do?">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_logout" layoutX="506.0" layoutY="358.0" mnemonicParsing="false" style="-fx-background-color: DC4AFF;" text="Logout :(">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="214.0" layoutY="229.0" mnemonicParsing="false" style="-fx-background-color: DC4AFF;" text="Transfer crypto to PayPal">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="180.0" layoutY="186.0" mnemonicParsing="false" style="-fx-background-color: DC4AFF;" text="Check your crypto account balance">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="232.0" layoutY="318.0" mnemonicParsing="false" style="-fx-background-color: DC4AFF;" text="Check stock market">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="215.0" layoutY="277.0" mnemonicParsing="false" style="-fx-background-color: DC4AFF;" text="Change login or password">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
